@@ -1,0 +1,7 @@
+redis:
+  image: "redis:latest"
+  ports:
+    - "6379:6379"
+  volumes:
+    - /data
+  mem_limit: 1g
